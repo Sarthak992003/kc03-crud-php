@@ -1,10 +1,10 @@
 <?php
 $conn = new mysqli(
-  "mysql.railway.internal", // ← Host
-  "root",                              // ← Username
-  "vazoWsJrBqTkBEQIYJdkXhzRAoJyGdkF",          // ← Password from Railway
-  "railway",                           // ← Database name
-  3306                                 // ← Port
+  "yamabiko.proxy.rlwy.net",   // Host
+  "root",                      // User
+  "vazoWsJrBqTkBEQIYJdkXhzRAoJyGdkF",   // Password (from Railway)
+  "railway",                   // Database name
+  57099                        // Port
 );
 
 if ($conn->connect_error) {
